@@ -111,5 +111,6 @@
                           {:app
                            {:source-paths ^:replace ["src/cljs"]
                             :compiler
-                            {:optimizations :advanced
+                            {:output-to "resources/public/js/main.js"
+                             :optimizations :advanced
                              :pretty-print false}}}}}})
